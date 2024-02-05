@@ -12,7 +12,7 @@ import java.util.zip.ZipInputStream;
 
 public class FileParsingTest {
 
-    private ClassLoader cl = FileParsingTest.class.getClassLoader();
+    private final ClassLoader cl = FileParsingTest.class.getClassLoader();
 
     @Test
     void checkPdfFileFromZipFileTest() throws Exception {

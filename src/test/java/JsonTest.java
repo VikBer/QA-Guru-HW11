@@ -9,7 +9,7 @@ import java.util.List;
 
 
 public class JsonTest {
-    private ClassLoader cl = JsonTest.class.getClassLoader();
+    private final ClassLoader cl = JsonTest.class.getClassLoader();
 
     ObjectMapper objectMapper = new ObjectMapper();
 
