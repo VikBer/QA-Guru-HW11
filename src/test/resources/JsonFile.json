@@ -1,0 +1,12 @@
+{
+  "squadName": "Alpha team",
+  "city": "City-17",
+  "formed": 2016,
+  "goal": "Defeat Enclave",
+  "active": true,
+  "members": [
+    "Alex Vane",
+    "Gordon Freeman",
+    "John Doe"
+  ]
+}
